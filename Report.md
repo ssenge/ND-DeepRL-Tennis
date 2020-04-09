@@ -17,6 +17,6 @@ The involved components:
 * DDPG algorithm: The implementation is very similar to Udacity's Bipedal sample code. Per episode, time steps are conducted as long as the ball does not hit the floor. In each time step, the agent acts accordingly to the current state and hence results in a new action, which in turn is used to get a new state and result from the environment. In each time step, the experienced action, state, reward pairs are stored in a replay buffer and finally evaluated and the network weights are updated according to the DDPG update rules as explained in the lessons.
 
 ### Potential improvements
-    * A systematic search for optimal hyperparameters and dropout or network architecture could be implemented (e.g. using the Hyperopt package)
-    * Prioritized Experience Replay is also likely to speed up the learning process
-    * The algorithms PPO and Multi Agent DDPG are likely expected to yield better results
+* A systematic search for optimal hyperparameters and dropout or network architecture could be implemented (e.g. using the Hyperopt package)
+* Prioritized Experience Replay is also likely to speed up the learning process
+* The algorithms PPO and Multi Agent DDPG are likely expected to yield better results
